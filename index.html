@@ -629,9 +629,72 @@
             #hot2-2 div p span {
                 font-size: 1.5em;
             }
+            .more {
+                display: none;
+            }
         }
         
-        @media screen and (max-width: 765px) {}
+        @media screen and (max-width: 765px) {
+            #hline1 span {
+                border-left: rgb(203, 84, 5) 2px solid;
+                padding-left: 6px;
+                position: relative;
+                top: -10px;
+            }
+            #hline2 {
+                display: none;
+            }
+            #hot1-1 {
+                height: 385px;
+                left: 15px;
+                position: relative;
+                margin-top: 5px;
+            }
+            #hot1-1 img {
+                height: 300px;
+                width: 360px;
+                position: absolute;
+                left: 0px;
+            }
+            #hot1-1 div {
+                height: 85px;
+                width: 360px;
+                background-color: black;
+                position: absolute;
+                left: 0px;
+                top: 300px;
+            }
+            #hot1-1 div p {
+                color: white;
+                margin-top: 12px;
+                margin-left: 30px;
+            }
+            #hot1-1 div p span {
+                font-size: 1.5em;
+            }
+            .more {
+                display: block;
+                width: 82px;
+                height: 30px;
+                border: rgb(181, 181, 181) 1px solid;
+                border-radius: 5px;
+                padding: 5px;
+                position: relative;
+                top: 0px;
+                left: 135px;
+                margin: 5px;
+            }
+            .more p {
+                position: relative;
+                color: rgb(83, 83, 83);
+            }
+            .more img {
+                position: relative;
+                left: 65px;
+                top: -31px;
+                height: 10px;
+            }
+        }
         /*使命与愿景*/
         
         @media screen and (min-width:765px) {
@@ -662,6 +725,10 @@
                 left: 487px;
                 top: 10px;
             }
+            #hp1-1 {
+                height: 350px;
+                background-image: url(img/mission1.jpg);
+            }
             #hp1-2 {
                 background-color: rgb(27, 77, 123);
             }
@@ -679,6 +746,29 @@
                 position: relative;
                 top: 50px;
             }
+            .bigw {
+                position: relative;
+                top: -50px;
+            }
+            .smallw {
+                display: none;
+            }
+            #hp2 {
+                height: 472px
+            }
+            #hp2-1 {
+                height: 472px;
+            }
+            #hp2-1 img {
+                position: relative;
+                left: -16px;
+                top: 3px;
+                height: 99%;
+                width: 1170px;
+            }
+            #adv {
+                display: none;
+            }
             #hp3 {
                 height: 400px;
                 background-color: rgb(27, 77, 123);
@@ -692,6 +782,9 @@
                 background-color: rgb(27, 77, 123);
                 top: 57px;
                 left: 100px;
+            }
+            #bpic {
+                display: none;
             }
             #hp3-1-1 img {
                 position: absolute;
@@ -714,15 +807,108 @@
             #hp3-1-2 p {
                 color: white;
             }
+            #hp p {
+                display: none;
+            }
         }
         
-        @media screen and (max-width:765px) {}
+        @media screen and (max-width:765px) {
+            #hope1 {
+                position: relative;
+                left: 5px;
+                border-left: rgb(203, 84, 5) 2px solid;
+            }
+            #hope1 span {
+                position: relative;
+                left: -8px;
+            }
+            #hope2 {
+                position: relative;
+                top: -47px;
+                left: 86px;
+                font-size: 0.7em;
+            }
+            #hp {
+                height: 45px;
+                position: relative;
+                top: 10px;
+            }
+            #hp p {
+                display: block;
+                position: relative;
+                top: -21px;
+                left: 90px;
+            }
+            #hp1-1 img {
+                width: 360px;
+            }
+            #hp1-2-1 {
+                position: relative;
+                top: 10px;
+            }
+            .bigw {
+                display: none;
+            }
+            #hp2-1 {
+                position: relative;
+                width: 360px;
+            }
+            #hp2 {
+                position: relative;
+                top: 60px;
+                width: 360px;
+            }
+            #hp2-1 img {
+                position: relative;
+                width: 360px;
+            }
+            #adv {
+                display: block;
+                position: relative;
+                top: 65px;
+                left: 145px;
+            }
+            #hp3 {
+                width: 360px;
+                position: relative;
+                top: 65px;
+            }
+            #hp3-1 {
+                display: block;
+                border-bottom: rgb(181, 181, 181) 1px solid;
+                height: 100px;
+                padding-top: 20px;
+                position: relative;
+                left: 14px;
+            }
+            #wpic {
+                display: none;
+            }
+            #hp3-1-1 {
+                position: relative;
+            }
+            #hp3-1-1 img {
+                position: relative;
+            }
+            #hp3-1-1 p {
+                display: none;
+            }
+            #hp3-1-2 {
+                position: relative;
+                top: -56px;
+                left: 100px;
+            }
+            #hp3-1-2 p {
+                text-align: left;
+            }
+        }
         /*底部*/
         
         @media screen and (min-width:765px) {
             #bottom {
                 background-color: black;
                 height: 530px;
+                font-size: 12px;
             }
             #bottom1-1 {
                 height: 140px;
@@ -767,11 +953,31 @@
             #bottom div {
                 background-color: black;
             }
+            #bottom2-2 {
+                display: none;
+            }
         }
         
         @media screen and (max-width:765px) {
             #bottom1 {
                 display: none;
+            }
+            #bottom2-2 {
+                display: block;
+            }
+            #bottom2 p {
+                position: relative;
+                color: white;
+            }
+            #bt1 {
+                position: relative;
+                top: 60px;
+            }
+            #bottom2 {
+                position: relative;
+                top: 80px;
+                background: black;
+                height: 200px;
             }
         }
     </style>
@@ -856,7 +1062,7 @@
     <!--车辆接送-->
     <div class="container" id="pickCar">
         <div class="row" id="pick">
-            <div class="col-md-12" id="pick1">
+            <div class="col-md-12 col-xs-12" id="pick1">
                 <div id="car1">
                     <div>
                         <p class="car1-1">机场接送&nbsp; 省心省钱</p>
@@ -879,10 +1085,10 @@
     <!--热门线路-->
     <div class="container" id="HL">
         <div class="row" id="hl">
-            <div class="col-md-12" id="hline1">
+            <div class="col-md-12 col-xs-12" id="hline1">
                 <span>热门线路</span>
             </div>
-            <div class="col-md-12" id="hline2"><span>Popular&nbsp; tourist&nbsp; routes</span></div>
+            <div class="col-md-12 col-xs-12" id="hline2"><span>Popular&nbsp; tourist&nbsp; routes</span></div>
         </div>
         <div class="row">
             <div class="col-md-6 col-xs-12" id="hot1">
@@ -927,29 +1133,40 @@
             </div>
         </div>
     </div>
+    <div class="more">
+        <p>查看更多</p>
+        <img src="img/hotR.png">
+    </div>
     <!--使命与愿景-->
     <div class="container" style="background-image: url(img/back.png);">
         <div class="row" id="hp">
             <div class="col-md-12" id="hope1"><span>使命与愿景</span></div>
+            <p>:</p>
             <div class="col-md-12" id="hope2"><span>让旅游回归本质，体验纯粹旅游</span></div>
         </div>
         <div class="row" style="height: 350px;" id="hp1">
-            <div class="col-md-5" style=" height: 350px; background-image: url(img/mission1.jpg);">
+            <div class="col-md-5" id="hp1-1">
+                <img src="img/mission1.jpg" />
             </div>
             <div class="col-md-7" id="hp1-2" style="height: 350px">
-                <p class="text-center" id="hp1-2-1"><span>服务理念及优势</span></p>
+                <p class="text-center" id="hp1-2-1"><span class="smallw">--</span><span>服务理念<span class="bigw" style="font-size: 1em;position: relative;top: 
+                0px;">及优势</span></span><span class="smallw">--</span></p>
                 <p class="text-center" id="hp1-2-1">"英华逸游”通过重新打造旅游全程中的产品线路设计、出行交通方案、 陪游向导服务、增值关怀项目等，为客户提供高品质的旅游体验。英华逸 游在泰国、欧洲、等多个国家拥有丰富的旅游资源，同时致力于给用户提 供性价比高的产品和服务。
                 </p>
             </div>
         </div>
-        <div class="row" style="height:472px">
-            <div class="col-md-12" style="height:472px;background-image: url(img/mission2.jpg);"></div>
+        <div class="row" id="hp2">
+            <div class="col-md-12" id="hp2-1">
+                <img src="img/mission2.jpg">
+            </div>
         </div>
+        <p class="center" id="adv">--服务优势--</p>
         <div class="row" id="hp3">
             <div class="col-md-4" id="hp3-1">
                 <div class="row">
                     <div class="col-md-12" id="hp3-1-1" style="background-image: url(img/rorate.png);">
-                        <img src="img/icon1.png" />
+                        <img src="img/icon1.png" id="wpic" />
+                        <img src="img/icon11.png" id="bpic" />
                         <p>品质行程</p>
                     </div>
                     <div class="col-md-12" id="hp3-1-2">
@@ -961,7 +1178,8 @@
             <div class="col-md-4" id="hp3-1">
                 <div class="row">
                     <div class="col-md-12" id="hp3-1-1" style="background-image: url(img/rorate.png);">
-                        <img src="img/icon2.png" />
+                        <img src="img/icon2.png" id="wpic" />
+                        <img src="img/icon22.png" id="bpic" />
                         <p>品质消费</p>
                     </div>
                     <div class="col-md-12" id="hp3-1-2">
@@ -973,7 +1191,8 @@
             <div class="col-md-4" id="hp3-1">
                 <div class="row">
                     <div class="col-md-12" id="hp3-1-1" style="background-image: url(img/rorate.png);">
-                        <img src="img/icon3.png" />
+                        <img src="img/icon3.png" id="wpic" />
+                        <img src="img/icon33.png" id="bpic" />
                         <p>品质小团</p>
                     </div>
                     <div class="col-md-12" id="hp3-1-2">
@@ -983,6 +1202,7 @@
                 </div>
             </div>
 
+            </p>
         </div>
     </div>
 
@@ -1045,9 +1265,16 @@
 
         </div>
         <div class="row" id="bottom2">
-            <div class="col-md-12">
-                <p class="text-center">2020&emsp;@苏州英华国际旅游有限公司&emsp; 版权所有
+            <div class="col-md-12" id="bt1">
+                <p class="text-center" id="bottom2-2">
+                    苏ICP备号、2020
                 </p>
+                <p class="text-center" id="bottom2-1">2020&emsp;@苏州英华国际旅游有限公司&emsp; 版权所有
+                </p>
+                <p class="text-center" id="bottom2-2">
+                    技术支持&emsp; 杭州科技
+                </p>
+
             </div>
         </div>
     </div>
