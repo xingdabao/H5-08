@@ -281,6 +281,9 @@
                 margin-top: 15px;
                 margin-left: 16px;
             }
+            .img-responsive {
+                width: 100%;
+            }
             #target span {
                 color: rgb(83, 83, 83);
                 position: absolute;
@@ -488,17 +491,51 @@
             }
         }
         
-        @media screen and(max-width:765px) {
-            #car1 p {
-                color: brown;
+        @media screen and (max-width:765px) {
+            #pickCar {
+                height: 105px;
+                position: relative;
+                top: 30px;
+            }
+            #car1 div {
+                position: relative;
+                left: 75px;
+            }
+            .car1-1 {
+                font-size: 1em;
+                color: rgb(20, 49, 109);
+                position: relative;
+                top: -10px;
+                left: -2px;
+            }
+            .car1-2 {
+                color: rgb(83, 83, 83);
+                font-size: 0.7em;
+                line-height: 2px;
             }
             .carpng {
                 display: none;
             }
             .carH {
                 display: block;
-                width: 20px;
-                height: 20px;
+                width: 30px;
+                height: 30px;
+                position: relative;
+                top: -50px;
+                left: 15px;
+            }
+            .car2-1 p {
+                display: none;
+            }
+            .car2-2 {
+                width: 85px;
+                padding: 3px 12px;
+                border: rgb(181, 181, 181) 1px solid;
+                border-radius: 5px;
+                color: rgb(83, 83, 83);
+                position: relative;
+                left: 248px;
+                top: -75px;
             }
         }
         /*热门线路*/
@@ -785,7 +822,7 @@
     <!--搜索部分-->
     <div class="container-fluid" id="con1">
         <div class="row">
-            <img src="img/banner.jpg" class="img-responsive" width="1366" height="430" />
+            <img src="img/banner.jpg" class="img-responsive" height="430" />
         </div>
         <!--图中字体-->
         <div class="row" id="p1">
